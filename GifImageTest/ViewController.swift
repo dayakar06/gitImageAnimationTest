@@ -37,7 +37,7 @@ class ViewController: UIViewController, CAAnimationDelegate {
     }
     
     func loadGifImageWithAnimation(){
-        let gifImage: UIImage = UIImage.gifImageWithName("celebrations")!
+        let gifImage: UIImage = UIImage.gifImageWithName("earth")!
         
         var values = [CGImage]()
         for image in gifImage.images! {
