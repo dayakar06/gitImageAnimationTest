@@ -6,7 +6,7 @@
 //  Copyright © 2020 Dayakar. All rights reserved.
 //
 
-//MARK:- Referred links
+//FIXME:- Referred links
 //https://github.com/kiritmodi2702/GIF-Swift
 //https://github.com/swiftgif/SwiftGif/wiki/Extended-use
 
@@ -22,7 +22,7 @@ class ViewController: UIViewController, CAAnimationDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        self.loadGifImageWithAnimation()
+        self.loadGifImage()
     }
     
     //MARK:- GIF animation
